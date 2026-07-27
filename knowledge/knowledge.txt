@@ -1,0 +1,7 @@
+Python is a programming language.
+
+RAG stands for Retrieval Augmented Generation.
+
+LangChain is a framework for building LLM applications.
+
+FAISS is a vector database developed by Meta.
