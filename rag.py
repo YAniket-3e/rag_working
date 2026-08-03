@@ -3,7 +3,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import ChatOpenAI
-from langchain_classic.chains import RetrievalQA
+from langchain.chains import RetrievalQA
 from config import API_KEY, API_BASE, MODEL_NAME
 from langchain_core.prompts import PromptTemplate
 
