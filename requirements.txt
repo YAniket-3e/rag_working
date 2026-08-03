@@ -1,7 +1,7 @@
 fastapi==0.115.0
 uvicorn==0.30.6
 langchain==0.3.27
-langchain-core==0.3.27
+langchain-core==0.3.72
 langchain-community==0.3.27
 langchain-openai==0.3.28
 langchain-text-splitters==0.3.9
