@@ -57,9 +57,9 @@ retriever = vector_db.as_retriever(
 )
 
 llm = ChatOpenAI(
-    model=MODEL_NAME,
-    openai_api_key=API_KEY,
-    openai_api_base=API_BASE
+    model="gpt-4o-mini",
+    openai_api_key="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",
+    openai_api_base="https://models.inference.ai.azure.com"
 )
 
 qa_chain = RetrievalQA.from_chain_type(
